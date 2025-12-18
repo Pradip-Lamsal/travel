@@ -90,7 +90,7 @@ export const WorldCupCTA: React.FC = () => {
                 ⚠️ Only 150 rooms remaining!
               </p>
               <p className="text-orange-100 text-sm mt-1">
-                Don't miss out on this once-in-a-lifetime opportunity
+                Don&apos;t miss out on this once-in-a-lifetime opportunity
               </p>
             </div>
           </div>
