@@ -1,0 +1,169 @@
+{
+  "carousel": [
+    {
+      "id": 1,
+      "destination": "Dubai",
+      "title": "Your Journey Beyond Nepal Begins Here",
+      "description": "Experience the grandeur of modern architecture and Arabian luxury",
+      "image": "https://images.unsplash.com/photo-1512453333214-3e34e5a2f0ae?q=80&w=1200&auto=format",
+      "cta": "Explore Dubai Packages"
+    },
+    {
+      "id": 2,
+      "destination": "Istanbul",
+      "title": "Where East Meets West",
+      "description": "Discover the magic of two continents in one magnificent city",
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=1200&auto=format",
+      "cta": "Explore Istanbul Packages"
+    },
+    {
+      "id": 3,
+      "destination": "Maldives",
+      "title": "Paradise Awaits You",
+      "description": "Relax on pristine beaches with crystal-clear turquoise waters",
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=1200&auto=format",
+      "cta": "Explore Maldives Packages"
+    },
+    {
+      "id": 4,
+      "destination": "Bangkok",
+      "title": "City of Angels",
+      "description": "Experience vibrant temples, bustling markets, and authentic Thai culture",
+      "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?q=80&w=1200&auto=format",
+      "cta": "Explore Bangkok Packages"
+    },
+    {
+      "id": 5,
+      "destination": "Paris",
+      "title": "The City of Love",
+      "description": "Embrace romance, art, and world-class cuisine in the capital of France",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1200&auto=format",
+      "cta": "Explore Paris Packages"
+    }
+  ],
+  "worldCupCTA": {
+    "headline": "🏆 FIFA World Cup 2026",
+    "description": "Don't miss the most anticipated football event of the decade! Book your hospitality packages and witness history in the making from the best seats in the house.",
+    "image": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1200&auto=format",
+    "ctaButtonText": "Book Your World Cup Experience",
+    "ctaAction": "/packages/worldcup-2026",
+    "badgeText": "⚡ Exclusive Offer",
+    "layout": "left"
+  },
+  "filterOptions": {
+    "destinations": [
+      { "id": "1", "name": "Dubai" },
+      { "id": "2", "name": "Istanbul" },
+      { "id": "3", "name": "Maldives" },
+      { "id": "4", "name": "Bangkok" },
+      { "id": "5", "name": "Paris" }
+    ],
+    "durations": [
+      { "id": "1", "label": "3-5 Days" },
+      { "id": "2", "label": "5-7 Days" },
+      { "id": "3", "label": "7-10 Days" },
+      { "id": "4", "label": "10+ Days" }
+    ],
+    "budgetRanges": [
+      { "id": "1", "label": "Rs. 50,000 - Rs. 100,000", "min": 50000, "max": 100000 },
+      { "id": "2", "label": "Rs. 100,000 - Rs. 150,000", "min": 100000, "max": 150000 },
+      { "id": "3", "label": "Rs. 150,000 - Rs. 250,000", "min": 150000, "max": 250000 },
+      { "id": "4", "label": "Rs. 250,000+", "min": 250000, "max": 999999 }
+    ]
+  },
+  "featuredPackages": [
+    {
+      "id": 1,
+      "title": "Dubai Desert Adventure",
+      "destination": "Dubai",
+      "duration": "5 Days",
+      "durationDays": 5,
+      "originalPrice": 85000,
+      "discountedPrice": 64999,
+      "rating": 4.8,
+      "reviews": 156,
+      "image": "https://images.unsplash.com/photo-1512453333214-3e34e5a2f0ae?q=80&w=500&auto=format",
+      "currency": "Rs.",
+      "description": "Experience the best of Dubai with desert safari, iconic landmarks, and luxury stay.",
+      "highlights": ["Desert Safari with BBQ Dinner", "Burj Khalifa Skip-the-Line", "Dubai Mall & Gold Souk", "Luxury 4-Star Hotel"]
+    },
+    {
+      "id": 2,
+      "title": "Istanbul Historical Tour",
+      "destination": "Istanbul",
+      "duration": "6 Days",
+      "durationDays": 6,
+      "originalPrice": 95000,
+      "discountedPrice": 71999,
+      "rating": 4.7,
+      "reviews": 203,
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=500&auto=format",
+      "currency": "Rs.",
+      "description": "Discover Istanbul's rich history spanning two continents with expert guides.",
+      "highlights": ["Blue Mosque & Hagia Sophia", "Bosphorus Evening Cruise", "Grand Bazaar Experience", "Turkish Delight & Cuisine"]
+    },
+    {
+      "id": 3,
+      "title": "Maldives Beach Bliss",
+      "destination": "Maldives",
+      "duration": "7 Days",
+      "durationDays": 7,
+      "originalPrice": 125000,
+      "discountedPrice": 94999,
+      "rating": 4.9,
+      "reviews": 289,
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=500&auto=format",
+      "currency": "Rs.",
+      "description": "Relax in paradise with water villas, diving, and world-class wellness.",
+      "highlights": ["Water Villa Stay", "Snorkeling & Diving", "Island Hopping Tour", "Spa & Wellness Package"]
+    },
+    {
+      "id": 4,
+      "title": "Bangkok Cultural Immersion",
+      "destination": "Bangkok",
+      "duration": "5 Days",
+      "durationDays": 5,
+      "originalPrice": 62000,
+      "discountedPrice": 45999,
+      "rating": 4.6,
+      "reviews": 178,
+      "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?q=80&w=500&auto=format",
+      "currency": "Rs.",
+      "description": "Immerse yourself in Bangkok's vibrant culture, temples, and street food scene.",
+      "highlights": ["Grand Palace Tour", "Floating Markets", "Muay Thai Experience", "Street Food Adventure"]
+    }
+  ],
+  "whyChooseUs": [
+    { "id": 1, "title": "Expert Local Guides", "description": "Our experienced guides know every hidden gem and ensure authentic experiences at each destination.", "icon": "🧭", "features": ["Professional guides", "Deep local knowledge", "Authentic experiences"] },
+    { "id": 2, "title": "Competitive Pricing", "description": "We negotiate the best rates with our partners so you get premium experiences at unbeatable prices.", "icon": "💰", "features": ["Best rates guaranteed", "Partner negotiations", "Value for money"] },
+    { "id": 3, "title": "24/7 Customer Support", "description": "Our dedicated team is always available to assist you before, during, and after your journey.", "icon": "📞", "features": ["Round-the-clock support", "Expert assistance", "Peace of mind"] }
+  ],
+  "testimonials": [
+    { "id": 1, "name": "Rajesh Kumar", "location": "Kathmandu", "text": "Best travel experience ever! The team was professional and the itinerary was perfectly planned.", "rating": 5, "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop", "destination": "Dubai" },
+    { "id": 2, "name": "Priya Sharma", "location": "Pokhara", "text": "Maldives package was beyond expectations. Every moment was magical and memorable.", "rating": 5, "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop", "destination": "Maldives" },
+    { "id": 3, "name": "Amit Patel", "location": "Lalitpur", "text": "Great value for money. Dubai trip exceeded all our expectations. Highly recommended!", "rating": 4.8, "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop", "destination": "Dubai" },
+    { "id": 4, "name": "Sunita Yadav", "location": "Bhaktapur", "text": "Istanbul was incredible. The guides were knowledgeable and the hotels were fantastic.", "rating": 5, "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop", "destination": "Istanbul" }
+  ],
+  "footer": {
+    "contactInfo": { "phone": "+977-1-5555555", "email": "info@devaaya.com", "address": "Kathmandu, Nepal", "hours": "Mon-Sun: 9:00 AM - 9:00 PM" },
+    "quickLinks": [
+      { "label": "Home", "href": "/" },
+      { "label": "Destinations", "href": "/destinations" },
+      { "label": "Packages", "href": "/packages" },
+      { "label": "About Us", "href": "/about-us" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "companyLinks": [
+      { "label": "Terms & Conditions", "href": "/terms" },
+      { "label": "Privacy Policy", "href": "/privacy" },
+      { "label": "Cancellation Policy", "href": "/cancellation" },
+      { "label": "FAQs", "href": "/faq" }
+    ],
+    "socialLinks": [
+      { "platform": "facebook", "url": "https://facebook.com/devaaya", "icon": "facebook" },
+      { "platform": "instagram", "url": "https://instagram.com/devaaya", "icon": "instagram" },
+      { "platform": "twitter", "url": "https://twitter.com/devaaya", "icon": "twitter" },
+      { "platform": "whatsapp", "url": "https://wa.me/977", "icon": "whatsapp" }
+    ]
+  }
+}
