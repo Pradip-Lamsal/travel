@@ -81,10 +81,10 @@ export const HeroCarousel: React.FC<HeroCarouselProps> = ({
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-6 mb-12">
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">
+                  <button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">
                     Explore Destinations
                   </button>
-                  <button className="border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300">
+                  <button className="border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300">
                     Plan Your Trip
                   </button>
                 </div>

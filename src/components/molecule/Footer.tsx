@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone, Send } from "lucide-react";
+import { Send } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import toast from "react-hot-toast";
@@ -84,7 +84,7 @@ export const Footer: React.FC<FooterProps> = ({
   };
 
   return (
-    <footer className="bg-gradient-to-b from-slate-900 to-black text-white py-12 sm:py-16 lg:py-20">
+    <footer className="bg-gradient-to-b from-slate-900 to-black text-white py-16 sm:py-20 lg:py-24 mt-16 pt-16 border-t border-slate-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Newsletter Section */}
         <motion.div
@@ -203,7 +203,7 @@ export const Footer: React.FC<FooterProps> = ({
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-3 text-sm">
               <div className="flex gap-3 items-start">
-                <Phone size={16} className="mt-1 flex-shrink-0 text-accent" />
+                <span className="text-yellow-400 mt-1 flex-shrink-0">📞</span>
                 <a
                   href={`tel:${contactInfo.phone}`}
                   className="text-white/70 hover:text-white transition-colors"
@@ -212,7 +212,7 @@ export const Footer: React.FC<FooterProps> = ({
                 </a>
               </div>
               <div className="flex gap-3 items-start">
-                <Mail size={16} className="mt-1 flex-shrink-0 text-accent" />
+                <span className="text-yellow-400 mt-1 flex-shrink-0">✉️</span>
                 <a
                   href={`mailto:${contactInfo.email}`}
                   className="text-white/70 hover:text-white transition-colors"
@@ -221,7 +221,7 @@ export const Footer: React.FC<FooterProps> = ({
                 </a>
               </div>
               <div className="flex gap-3 items-start">
-                <MapPin size={16} className="mt-1 flex-shrink-0 text-accent" />
+                <span className="text-yellow-400 mt-1 flex-shrink-0">📍</span>
                 <p className="text-white/70">{contactInfo.address}</p>
               </div>
               <p className="text-white/60 text-xs">{contactInfo.hours}</p>

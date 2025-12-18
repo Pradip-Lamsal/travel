@@ -4,6 +4,7 @@ import { HeroCarousel } from "@/components/HeroCarousel";
 import { Footer } from "@/components/molecule/Footer";
 import { Header } from "@/components/molecule/Header";
 import { TripFilter } from "@/components/TripFilter";
+import { WorldCupCTA } from "@/components/WorldCupCTA";
 import landingData from "@/lib/landing.json";
 import { FeaturedPackagesSection } from "./components/FeaturedPackagesSection";
 import { FinalCTASection } from "./components/FinalCTASection";
@@ -26,6 +27,9 @@ export default function LandingPage() {
 
       {/* Hero Carousel Section */}
       <HeroCarousel slides={landingData.carousel} autoplayInterval={5000} />
+
+      {/* World Cup 2026 CTA Section */}
+      <WorldCupCTA />
 
       {/* Trip Filter Section */}
       <TripFilter options={landingData.filterOptions} />
