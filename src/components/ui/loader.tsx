@@ -1,13 +1,13 @@
 "use client";
+import type { Transition } from "motion/react";
 import { motion } from "motion/react";
-import React from "react";
 
 export const LoaderOne = () => {
-  const transition = (x: number) => {
+  const transition = (x: number): Transition => {
     return {
       duration: 1,
       repeat: Infinity,
-      repeatType: "loop" as const,
+      repeatType: "loop",
       delay: x * 0.2,
       ease: "easeInOut",
     };
@@ -49,11 +49,11 @@ export const LoaderOne = () => {
 };
 
 export const LoaderTwo = () => {
-  const transition = (x: number) => {
+  const transition = (x: number): Transition => {
     return {
       duration: 2,
       repeat: Infinity,
-      repeatType: "loop" as const,
+      repeatType: "loop",
       delay: x * 0.2,
       ease: "easeInOut",
     };
@@ -112,12 +112,14 @@ export const LoaderThree = () => {
       <motion.path
         initial={{ pathLength: 0, fill: "var(--fill-initial)" }}
         animate={{ pathLength: 1, fill: "var(--fill-final)" }}
-        transition={{
-          duration: 2,
-          ease: "easeInOut",
-          repeat: Infinity,
-          repeatType: "reverse",
-        }}
+        transition={
+          {
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatType: "reverse",
+          } as Transition
+        }
         d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11"
       />
     </motion.svg>
@@ -129,17 +131,19 @@ export const LoaderFour = ({ text = "Loading..." }: { text?: string }) => {
     <div className="relative font-bold text-black [perspective:1000px] dark:text-white">
       <motion.span
         animate={{
-          skew: [0, -40, 0],
+          rotateY: [0, -40, 0],
           scaleX: [1, 2, 1],
         }}
-        transition={{
-          duration: 0.05,
-          repeat: Infinity,
-          repeatType: "reverse",
-          repeatDelay: 2,
-          ease: "linear",
-          times: [0, 0.2, 0.5, 0.8, 1],
-        }}
+        transition={
+          {
+            duration: 0.05,
+            repeat: Infinity,
+            repeatType: "reverse",
+            repeatDelay: 2,
+            ease: "linear",
+            times: [0, 0.2, 0.5, 0.8, 1],
+          } as Transition
+        }
         className="relative z-20 inline-block"
       >
         {text}
@@ -199,14 +203,16 @@ export const LoaderFive = ({ text }: { text: string }) => {
             ],
             opacity: [0.5, 1, 0.5],
           }}
-          transition={{
-            duration: 0.5,
-            repeat: Infinity,
-            repeatType: "loop",
-            delay: i * 0.05,
-            ease: "easeInOut",
-            repeatDelay: 2,
-          }}
+          transition={
+            {
+              duration: 0.5,
+              repeat: Infinity,
+              repeatType: "loop",
+              delay: i * 0.05,
+              ease: "easeInOut",
+              repeatDelay: 2,
+            } as Transition
+          }
         >
           {char === " " ? "\u00A0" : char}
         </motion.span>
