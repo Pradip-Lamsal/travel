@@ -1,0 +1,120 @@
+{
+  "countries": [
+    {
+      "id": "norway",
+      "name": "Norway",
+      "region": "Europe",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "description": "Explore over 278 unique retreats designed for travelers seeking extraordinary experiences.",
+      "retreats": 278,
+      "highlights": ["Fjords", "Northern Lights", "Mountain Hiking"]
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "region": "Europe",
+      "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop",
+      "description": "Discover boutique retreats in the heart of Italian culture and cuisine.",
+      "retreats": 156,
+      "highlights": ["Tuscany", "Rome", "Venice"]
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "region": "Europe",
+      "image": "https://images.unsplash.com/photo-1531366936337-7bc3a1be4e6d?w=600&h=400&fit=crop",
+      "description": "Alpine retreats offering pristine nature and world-class wellness experiences.",
+      "retreats": 189,
+      "highlights": ["Alps", "Lakes", "Villages"]
+    },
+    {
+      "id": "bali",
+      "name": "Bali",
+      "region": "Asia",
+      "image": "https://images.unsplash.com/photo-1504521217291-d2b136667c09?w=600&h=400&fit=crop",
+      "description": "Tropical paradise with luxury retreats and spiritual wellness centers.",
+      "retreats": 234,
+      "highlights": ["Beaches", "Temples", "Yoga"]
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "region": "Asia",
+      "image": "https://images.unsplash.com/photo-1489749798305-4fea3ba63d60?w=600&h=400&fit=crop",
+      "description": "Experience authentic Asian culture with adventure and relaxation.",
+      "retreats": 201,
+      "highlights": ["Bangkok", "Islands", "Temples"]
+    },
+    {
+      "id": "peru",
+      "name": "Peru",
+      "region": "South America",
+      "image": "https://images.unsplash.com/photo-1587595431973-160b0d94add1?w=600&h=400&fit=crop",
+      "description": "Ancient wonders meet modern adventure in this mystical destination.",
+      "retreats": 145,
+      "highlights": ["Machu Picchu", "Amazon", "Sacred Valley"]
+    }
+  ],
+  "featuredRetreats": [
+    {
+      "id": 1,
+      "title": "7 Day Mystic Mountain Retreat in Romania",
+      "location": "Carpathian Mountains, Romania",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop",
+      "price": 1000,
+      "duration": "7 days, 6 nights",
+      "guests": 12,
+      "startDate": "Oct 15",
+      "endDate": "Oct 21, 2025",
+      "rating": 4.8,
+      "reviews": 180,
+      "activities": ["Hiking", "Meditation", "Cultural tours"],
+      "description": "Experience the mystical beauty of the Carpathian Mountains with guided meditations and authentic cultural experiences."
+    },
+    {
+      "id": 2,
+      "title": "Yoga & Outdoor Retreat in Tuscany, Italy",
+      "location": "Province of Grosseto, Tuscany, Italy",
+      "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop",
+      "price": 1328,
+      "duration": "6 days, 5 nights",
+      "guests": 6,
+      "startDate": "Oct 30",
+      "endDate": "Nov 05, 2025",
+      "rating": 4.9,
+      "reviews": 256,
+      "activities": ["Yoga", "Wine tasting", "Cooking classes"],
+      "description": "Immerse yourself in the serene Italian countryside with daily yoga sessions and traditional Tuscan cuisine."
+    },
+    {
+      "id": 3,
+      "title": "Photography Retreat & Tour in Magical Morocco",
+      "location": "Morocco",
+      "image": "https://images.unsplash.com/photo-1584394838336-abadf3c7b4d7?w=600&h=400&fit=crop",
+      "price": 5575,
+      "duration": "10 days, 9 nights",
+      "guests": 18,
+      "startDate": "Oct 06",
+      "endDate": "Oct 15, 2025",
+      "rating": 4.7,
+      "reviews": 312,
+      "activities": ["Photography", "Cultural tours", "Desert exploration"],
+      "description": "Capture stunning landscapes and cultural moments with professional photography guidance."
+    },
+    {
+      "id": 4,
+      "title": "Morocco Holiday & Desert Moon",
+      "location": "Marrakech, Marrakesh-Safi, Morocco",
+      "image": "https://images.unsplash.com/photo-1549144511-f099e773c147?w=600&h=400&fit=crop",
+      "price": 3829,
+      "duration": "5 days, 4 nights",
+      "guests": 6,
+      "startDate": "Dec 28, 2025",
+      "endDate": "Jan 4, 2026",
+      "rating": 4.6,
+      "reviews": 452,
+      "activities": ["Desert safari", "Camel riding", "Stargazing"],
+      "description": "Experience the magic of the Sahara with unforgettable desert experiences and starlit nights."
+    }
+  ]
+}

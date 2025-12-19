@@ -26,11 +26,29 @@ const config: Config = {
         "slide-up": "slide-up 0.5s ease-out",
         scale: "scale 20s ease-in-out infinite alternate",
         float: "float 6s ease-in-out infinite",
+        "border-shimmer": "border-shimmer 3s infinite",
       },
       keyframes: {
         shimmer: {
           "0%": { backgroundPosition: "-1000px 0" },
           "100%": { backgroundPosition: "1000px 0" },
+        },
+        "border-shimmer": {
+          "0%": {
+            backgroundPosition: "0% 50%",
+            borderImageSource:
+              "linear-gradient(90deg, transparent, #14b8a6, transparent)",
+          },
+          "50%": {
+            backgroundPosition: "100% 50%",
+            borderImageSource:
+              "linear-gradient(90deg, transparent, #0d9488, transparent)",
+          },
+          "100%": {
+            backgroundPosition: "0% 50%",
+            borderImageSource:
+              "linear-gradient(90deg, transparent, #14b8a6, transparent)",
+          },
         },
         "fade-in": {
           "0%": { opacity: "0" },
