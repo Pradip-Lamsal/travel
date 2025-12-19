@@ -6,7 +6,7 @@ import {
   useMotionValueEvent,
   useScroll,
 } from "motion/react";
-import { useState } from "react";
+import { ReactNode, useState } from "react";
 
 export const FloatingNav = ({
   navItems,
@@ -15,7 +15,7 @@ export const FloatingNav = ({
   navItems: {
     name: string;
     link: string;
-    icon?: JSX.Element;
+    icon?: ReactNode;
   }[];
   className?: string;
 }) => {
