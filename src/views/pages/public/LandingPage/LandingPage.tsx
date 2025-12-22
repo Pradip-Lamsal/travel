@@ -18,14 +18,14 @@ export default function LandingPage() {
       {/* Hero Section */}
       <HeroSection />
 
-      {/* Destination Explorer */}
-      <DestinationExplorer />
-
-      {/* Featured Retreats */}
-      <FeaturedRetreats />
-
       {/* Cricket World Cup 2026 */}
       <CricketWorldCup />
+
+      {/* Featured Retreats - Baku Banner */}
+      <FeaturedRetreats />
+
+      {/* Destination Explorer */}
+      <DestinationExplorer />
 
       {/* Combine Retreat Section */}
       <CombineRetreat />

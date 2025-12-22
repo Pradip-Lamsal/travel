@@ -9,6 +9,12 @@ const nextConfig: NextConfig = {
     };
     return config;
   },
+  turbopack: {
+    resolveAlias: {
+      "@emotion/react": "@emotion/react",
+      "@emotion/styled": "@emotion/styled",
+    },
+  },
   images: {
     remotePatterns: [
       {

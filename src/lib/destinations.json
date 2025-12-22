@@ -22,7 +22,7 @@
       "id": "switzerland",
       "name": "Switzerland",
       "region": "Europe",
-      "image": "https://images.unsplash.com/photo-1531366936337-7bc3a1be4e6d?w=600&h=400&fit=crop",
+      "image": "/landing-page/destinations/Switzerland.jpg",
       "description": "Alpine retreats offering pristine nature and world-class wellness experiences.",
       "retreats": 189,
       "highlights": ["Alps", "Lakes", "Villages"]
@@ -31,7 +31,7 @@
       "id": "bali",
       "name": "Bali",
       "region": "Asia",
-      "image": "https://images.unsplash.com/photo-1504521217291-d2b136667c09?w=600&h=400&fit=crop",
+      "image": "/landing-page/destinations/bali.jpg",
       "description": "Tropical paradise with luxury retreats and spiritual wellness centers.",
       "retreats": 234,
       "highlights": ["Beaches", "Temples", "Yoga"]
@@ -40,7 +40,7 @@
       "id": "thailand",
       "name": "Thailand",
       "region": "Asia",
-      "image": "https://images.unsplash.com/photo-1489749798305-4fea3ba63d60?w=600&h=400&fit=crop",
+      "image": "/landing-page/destinations/thailand.jpg",
       "description": "Experience authentic Asian culture with adventure and relaxation.",
       "retreats": 201,
       "highlights": ["Bangkok", "Islands", "Temples"]
@@ -49,7 +49,7 @@
       "id": "peru",
       "name": "Peru",
       "region": "South America",
-      "image": "https://images.unsplash.com/photo-1587595431973-160b0d94add1?w=600&h=400&fit=crop",
+      "image": "/landing-page/destinations/peru.jpg",
       "description": "Ancient wonders meet modern adventure in this mystical destination.",
       "retreats": 145,
       "highlights": ["Machu Picchu", "Amazon", "Sacred Valley"]

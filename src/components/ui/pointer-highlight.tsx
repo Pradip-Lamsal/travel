@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { motion } from "motion/react";
-import { useRef, useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export function PointerHighlight({
   children,
@@ -49,23 +49,23 @@ export function PointerHighlight({
       {children}
       {dimensions.width > 0 && dimensions.height > 0 && (
         <motion.div
-          className="pointer-events-none absolute inset-0 z-0"
+          className="pointer-events-none absolute inset-0  z-0"
           initial={{ opacity: 0, scale: 0.95, originX: 0, originY: 0 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
           <motion.div
             className={cn(
-              "absolute inset-0 border border-neutral-800 dark:border-neutral-200",
-              rectangleClassName,
+              "absolute -inset-2 border rounded-3xl border-white dark:border-neutral-200",
+              rectangleClassName
             )}
             initial={{
-              width: 0,
-              height: 0,
+              width: 1,
+              height: 1,
             }}
             whileInView={{
-              width: dimensions.width,
-              height: dimensions.height,
+              width: dimensions.width + 18,
+              height: dimensions.height + 18,
             }}
             transition={{
               duration: 1,
@@ -73,12 +73,12 @@ export function PointerHighlight({
             }}
           />
           <motion.div
-            className="pointer-events-none absolute"
+            className="pointer-events-none absolute "
             initial={{ opacity: 0 }}
             whileInView={{
               opacity: 1,
-              x: dimensions.width + 4,
-              y: dimensions.height + 4,
+              x: dimensions.width + 10,
+              y: dimensions.height + 10,
             }}
             style={{
               rotate: -90,
@@ -90,7 +90,7 @@ export function PointerHighlight({
             }}
           >
             <Pointer
-              className={cn("h-5 w-5 text-blue-500", pointerClassName)}
+              className={cn("h-5 w-5 text-yellow-300", pointerClassName)}
             />
           </motion.div>
         </motion.div>
